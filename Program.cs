@@ -19,6 +19,10 @@ namespace Exercicio_15
                 Console.WriteLine("Intervalo de [50,75]");
             else if (num >= 75 && num < 100)
                 Console.WriteLine("Intervalo de [75,100]");
+            else
+            {
+                Console.WriteLine("Fora de intervalo");
+            }
 
             Console.ReadKey();
 
